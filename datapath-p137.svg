@@ -79,13 +79,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="8"
-     inkscape:cx="215.1875"
-     inkscape:cy="681.8125"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="295.92419"
+     inkscape:cy="151.85118"
      inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="750"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10">
     <inkscape:page
@@ -1535,7 +1535,6 @@
        id="text1312"
        x="413.20538"
        y="-514.04187"><tspan
-         x="413.20538 418.7655 425.43564"
          y="-514.04187"
          sodipodi:role="line"
          id="tspan1310">SR2</tspan></text>
@@ -1546,7 +1545,6 @@
        id="text1316"
        x="411.75934"
        y="-505.04169"><tspan
-         x="411.75934 418.97949 426.19965"
          y="-505.04169"
          sodipodi:role="line"
          id="tspan1314">OUT</tspan></text>
@@ -1555,23 +1553,23 @@
        transform="scale(1,-1)"
        style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text1320"
-       x="449.20511"
-       y="-514.04187"><tspan
-         x="449.20511 454.7652 461.43533"
-         y="-514.04187"
+       x="446.90964"
+       y="-514.05164"><tspan
+         y="-514.05164"
          sodipodi:role="line"
-         id="tspan1318">SR1</tspan></text>
+         id="tspan1318"
+         x="446.90964">SR1</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
        style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text1324"
-       x="447.76709"
-       y="-505.04169"><tspan
-         x="447.76709 454.98721 462.20737"
-         y="-505.04169"
+       x="445.47162"
+       y="-505.05145"><tspan
+         y="-505.05145"
          sodipodi:role="line"
-         id="tspan1322">OUT</tspan></text>
+         id="tspan1322"
+         x="445.47162">OUT</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -1622,7 +1620,6 @@
        id="text1344"
        x="300.82199"
        y="-619.3385"><tspan
-         x="300.82199 307.32001 311.31601 313.81799 317.814 322.827"
          y="-619.3385"
          sodipodi:role="line"
          id="tspan1342">GatePC</tspan></text>
@@ -1739,10 +1736,10 @@
        id="text1388"
        x="216.283"
        y="-375.44009"><tspan
-         x="216.283 219.28 223.78 226.282 230.782"
          y="-375.44009"
          sodipodi:role="line"
-         id="tspan1386">[4:0]</tspan></text>
+         id="tspan1386"
+         x="216.283 219.28 223.78 226.282 230.782">[4:0]</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -1750,10 +1747,10 @@
        id="text1392"
        x="247.1188"
        y="-352.21289"><tspan
-         x="247.1188 250.1158 254.61581 259.11581 261.6178 266.1178"
          y="-352.21289"
          sodipodi:role="line"
-         id="tspan1390">[15:9]</tspan></text>
+         id="tspan1390"
+         x="247.1188 250.1158 254.61581 259.11581 261.6178 266.1178">[15:9]</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -1761,10 +1758,10 @@
        id="text1396"
        x="259.24359"
        y="-369.85379"><tspan
-         x="259.24359 262.2406 266.7406"
          y="-369.85379"
          sodipodi:role="line"
-         id="tspan1394">[5]</tspan></text>
+         id="tspan1394"
+         x="259.24359 262.2406 266.7406">[5]</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -1782,7 +1779,6 @@
        id="text1404"
        x="275.62701"
        y="-448.75211"><tspan
-         x="275.62701 281.40207 287.17712 292.95218 298.28723 302.28635 309.39737 315.17242"
          y="-448.75211"
          sodipodi:role="line"
          id="tspan1402">ADDR1MUX</tspan></text>
@@ -1803,7 +1799,6 @@
        id="text1412"
        x="119.6269"
        y="-448.75211"><tspan
-         x="119.6269 125.40276 131.1786 136.95447 142.29033 146.29024 153.40205 159.17792"
          y="-448.75211"
          sodipodi:role="line"
          id="tspan1410">ADDR2MUX</tspan></text>

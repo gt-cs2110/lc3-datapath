@@ -79,9 +79,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="248.24999"
-     inkscape:cy="467.74999"
+     inkscape:zoom="4.0000002"
+     inkscape:cx="281.74999"
+     inkscape:cy="422.62498"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="2552"
@@ -645,17 +645,9 @@
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path460" />
     <path
-       d="m 302.744,319.753 5.4,1.801 -5.4,1.8 v -3.601"
-       style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="path1122" />
-    <path
        d="m 353.685,346.814 h 13.5"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1126" />
-    <path
-       d="m 302.684,319.753 5.4,1.801 -5.4,1.8 z"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path1130" />
     <path
        d="m 362.265,345.014 5.398,1.8 -5.398,1.8 v -3.6"
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -681,10 +673,6 @@
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path1154" />
     <path
-       d="m 307.904,334.274 h -13.5"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path1158" />
-    <path
        d="m 361.845,280.034 5.398,1.799 -5.398,1.801 z"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1162" />
@@ -693,14 +681,6 @@
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1166" />
     <path
-       d="m 301.784,332.474 5.4,1.8 -5.4,1.8 v -3.6"
-       style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="path1170" />
-    <path
-       d="m 301.784,332.474 5.4,1.8 -5.4,1.8 z"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path1178" />
-    <path
        d="m 301.904,346.753 5.4,1.801 -5.4,1.8 v -3.601"
        style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path1182" />
@@ -708,16 +688,6 @@
        d="m 301.904,346.753 5.4,1.801 -5.4,1.8 z"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1184" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:9px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1468"
-       x="285.40039"
-       y="-329.776"><tspan
-         x="285.40039"
-         y="-329.776"
-         id="tspan1466">R</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -919,50 +889,6 @@
        d="m 401.384,552.734 5.4,1.8 -5.4,1.8 z"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path948" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1312"
-       x="413.20538"
-       y="-514.04187"><tspan
-         x="413.20538 418.7655 425.43564"
-         y="-514.04187"
-         sodipodi:role="line"
-         id="tspan1310">SR2</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1316"
-       x="411.75934"
-       y="-505.04169"><tspan
-         x="411.75934 418.97949 426.19965"
-         y="-505.04169"
-         sodipodi:role="line"
-         id="tspan1314">OUT</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1320"
-       x="449.20511"
-       y="-514.04187"><tspan
-         x="449.20511 454.7652 461.43533"
-         y="-514.04187"
-         sodipodi:role="line"
-         id="tspan1318">SR1</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1324"
-       x="447.76709"
-       y="-505.04169"><tspan
-         x="447.76709 454.98721 462.20737"
-         y="-505.04169"
-         sodipodi:role="line"
-         id="tspan1322">OUT</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(1,-1)"
@@ -1336,5 +1262,49 @@
          y="-392.53409"
          sodipodi:role="line"
          id="tspan484">16</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(1,-1)"
+       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text1312"
+       x="413.20538"
+       y="-514.04187"><tspan
+         y="-514.04187"
+         sodipodi:role="line"
+         id="tspan1310"
+         x="413.20538">SR2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(1,-1)"
+       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text1316"
+       x="411.75934"
+       y="-505.04169"><tspan
+         y="-505.04169"
+         sodipodi:role="line"
+         id="tspan1314"
+         x="411.75934">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(1,-1)"
+       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text1320"
+       x="446.90964"
+       y="-514.05164"><tspan
+         y="-514.05164"
+         sodipodi:role="line"
+         id="tspan1318"
+         x="446.90964">SR1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(1,-1)"
+       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text1324"
+       x="445.47162"
+       y="-505.05145"><tspan
+         y="-505.05145"
+         sodipodi:role="line"
+         id="tspan1322"
+         x="445.47162">OUT</tspan></text>
   </g>
 </svg>
