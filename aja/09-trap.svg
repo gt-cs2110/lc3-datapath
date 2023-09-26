@@ -80,14 +80,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="276.8323"
-     inkscape:cy="352.84627"
-     inkscape:window-width="3440"
-     inkscape:window-height="1371"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g200605">
+     inkscape:cx="404.81862"
+     inkscape:cy="392.0907"
+     inkscape:window-width="1634"
+     inkscape:window-height="1288"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g10">
     <inkscape:page
        x="0"
        y="0"
@@ -2527,7 +2527,7 @@
        id="g200605"
        transform="translate(8.0258244,5.2860916)">
       <path
-         d="m 468.21243,160.83357 v -46.85385 l -12.88251,-6.46347 v 59.78079 z"
+         d="m 468.21243,160.83357 v -36.35385 l -12.88251,-6.46347 v 49.28079 z"
          style="fill:none;stroke:#231f20;stroke-width:0.322618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          id="path108-7-2-9"
          sodipodi:nodetypes="ccccc" />
@@ -2709,42 +2709,6 @@
            y="-121.95522"
            sodipodi:role="line"
            id="tspan202935">6</tspan></text>
-      <path
-         d="m 455.30934,109.82094 -7.44,-2.52 v 4.98 l 7.44,-2.46"
-         style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         id="path203580" />
-      <path
-         d="m 445.36821,106.51465 -6.6,6.6"
-         style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path203582" />
-      <path
-         d="m 448.92183,109.88417 -13.69395,-0.0734"
-         style="fill:none;stroke:#231f20;stroke-width:0.274217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path203584"
-         sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-size:9px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text203588"
-         x="440.51288"
-         y="-111.88419"><tspan
-           x="440.51288"
-           y="-111.88419"
-           sodipodi:role="line"
-           id="tspan203586">3</tspan></text>
-      <text
-         xml:space="preserve"
-         transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-size:6px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text203592"
-         x="411.995"
-         y="-107.86123"><tspan
-           x="411.995"
-           y="-107.86123"
-           sodipodi:role="line"
-           id="tspan203590"
-           style="font-size:6px">Unused</tspan></text>
     </g>
   </g>
 </svg>
