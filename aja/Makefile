@@ -3,7 +3,7 @@
 
 PDFDIR = pdf
 PAGES = $(patsubst %.svg,$(PDFDIR)/%.pdf,$(wildcard *.svg))
-COMBINED = $(PDFDIR)/combined.pdf
+COMBINED = $(PDFDIR)/story-of-the-lc3-datapath.pdf
 
 .DUMMY: clean
 

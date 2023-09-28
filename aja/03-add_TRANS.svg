@@ -7,7 +7,7 @@
    width="600"
    height="730"
    viewBox="0 0 600 730"
-   sodipodi:docname="02-add_TRANS.svg"
+   sodipodi:docname="03-add_TRANS.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -80,12 +80,12 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="442.24999"
-     inkscape:cy="291.99999"
+     inkscape:cx="342.74998"
+     inkscape:cy="292.49999"
      inkscape:window-width="1720"
      inkscape:window-height="1371"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      inkscape:current-layer="g10">
     <inkscape:page
@@ -713,17 +713,6 @@
        d="m 301.904,346.753 5.4,1.801 -5.4,1.8 z"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1184-8" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:9px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1392"
-       x="247.1188"
-       y="-352.21289"><tspan
-         x="247.1188 250.1158 254.61581 259.11581 261.6178 266.1178"
-         y="-352.21289"
-         sodipodi:role="line"
-         id="tspan1390">[15:9]</tspan></text>
     <path
        d="m 178.004,303.554 -9,-9"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -1159,5 +1148,16 @@
          sodipodi:role="line"
          id="tspan1322"
          x="445.47162">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(1,-1)"
+       style="font-variant:normal;font-weight:normal;font-size:9px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text1392"
+       x="256.1188"
+       y="-355.21289"><tspan
+         y="-355.21289"
+         sodipodi:role="line"
+         id="tspan1390"
+         x="256.1188">[15:12]</tspan></text>
   </g>
 </svg>
