@@ -7,7 +7,7 @@
    width="600"
    height="730"
    viewBox="0 0 600 730"
-   sodipodi:docname="08-jsrjmp.svg"
+   sodipodi:docname="10-jsrjmp.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -79,13 +79,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="288.14601"
-     inkscape:cy="298.39905"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="196.24999"
+     inkscape:cy="294.49999"
      inkscape:window-width="1720"
      inkscape:window-height="1371"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      inkscape:current-layer="g10">
     <inkscape:page
@@ -1798,7 +1798,7 @@
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path956" />
     <path
-       d="m 146.69219,442.934 -8.58,-8.1"
+       d="m 146.69219,441.434 -8.58,-8.1"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path960" />
     <path
@@ -1815,9 +1815,9 @@
        style="font-variant:normal;font-weight:normal;font-size:7.9998px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text1408"
        x="140.81372"
-       y="-430.75095"><tspan
+       y="-429.25095"><tspan
          x="140.81372"
-         y="-430.75095"
+         y="-429.25095"
          id="tspan1406">2</tspan></text>
     <text
        xml:space="preserve"
