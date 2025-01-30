@@ -11,8 +11,7 @@ COMBINED = story-of-the-lc3-datapath.pdf
 $(COMBINED): $(PAGES)
 	pdfunite $^ $@
 
-$(PDFDIR)/%.pdf: %.svg
-	mkdir -p $(PDFDIR)
+$(PDFDIR)/%.pdf: $(SVGDIR)/%.svg
 	inkscape --export-area-page -o $@ $<
 
 clean:
