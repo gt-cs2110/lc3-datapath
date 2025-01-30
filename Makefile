@@ -12,6 +12,7 @@ $(COMBINED): $(PAGES)
 	pdfunite $^ $@
 
 $(PDFDIR)/%.pdf: %.svg
+	mkdir -p $(PDFDIR)
 	inkscape --export-area-page -o $@ $<
 
 clean:
