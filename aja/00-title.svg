@@ -79,9 +79,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="237.23432"
-     inkscape:cy="369.46328"
+     inkscape:zoom="1"
+     inkscape:cx="261.5"
+     inkscape:cy="313.5"
      inkscape:window-width="1634"
      inkscape:window-height="1288"
      inkscape:window-x="26"
@@ -182,5 +182,20 @@
          id="tspan1362"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold'"
          x="426.25525">16</tspan></text>
+    <g
+       id="g10441">
+      <text
+         xml:space="preserve"
+         style="font-size:11px;line-height:1.25;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000080;stroke-width:0.75"
+         x="332.12894"
+         y="-107.5394"
+         id="text1493"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan1491"
+           style="font-size:11px;fill:#000080;stroke-width:0.75"
+           x="332.12894"
+           y="-107.5394">github.com/gt-cs2110/lc3-datapath</tspan></text>
+    </g>
   </g>
 </svg>

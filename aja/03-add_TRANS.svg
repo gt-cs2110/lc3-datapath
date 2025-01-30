@@ -80,8 +80,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="342.74998"
-     inkscape:cy="292.49999"
+     inkscape:cx="246.74999"
+     inkscape:cy="532.99997"
      inkscape:window-width="1720"
      inkscape:window-height="1371"
      inkscape:window-x="26"
@@ -1159,5 +1159,17 @@
          sodipodi:role="line"
          id="tspan1390"
          x="256.1188">[15:12]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;line-height:1.25;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000080;stroke-width:0.75"
+       x="332.12894"
+       y="-107.5394"
+       id="text1493"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan1491"
+         style="font-size:11px;fill:#000080;stroke-width:0.75"
+         x="332.12894"
+         y="-107.5394">github.com/gt-cs2110/lc3-datapath</tspan></text>
   </g>
 </svg>

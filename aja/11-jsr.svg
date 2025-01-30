@@ -7,7 +7,7 @@
    width="600"
    height="730"
    viewBox="0 0 600 730"
-   sodipodi:docname="10-jsrjmp.svg"
+   sodipodi:docname="11-jsr.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -79,9 +79,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="196.24999"
-     inkscape:cy="294.49999"
+     inkscape:zoom="0.70710682"
+     inkscape:cx="292.03509"
+     inkscape:cy="405.87927"
      inkscape:window-width="1720"
      inkscape:window-height="1371"
      inkscape:window-x="26"
@@ -2502,5 +2502,17 @@
          style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          id="path144-2-3-7" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;line-height:1.25;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000080;stroke-width:0.75"
+       x="332.12894"
+       y="-107.5394"
+       id="text1493"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan1491"
+         style="font-size:11px;fill:#000080;stroke-width:0.75"
+         x="332.12894"
+         y="-107.5394">github.com/gt-cs2110/lc3-datapath</tspan></text>
   </g>
 </svg>

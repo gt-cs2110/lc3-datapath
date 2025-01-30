@@ -7,7 +7,7 @@
    width="600"
    height="730"
    viewBox="0 0 600 730"
-   sodipodi:docname="09-trap.svg"
+   sodipodi:docname="11-trap.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -80,10 +80,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="404.81862"
-     inkscape:cy="392.0907"
-     inkscape:window-width="1634"
-     inkscape:window-height="1288"
+     inkscape:cx="135.7645"
+     inkscape:cy="568.16028"
+     inkscape:window-width="2767"
+     inkscape:window-height="1278"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -2710,5 +2710,17 @@
            sodipodi:role="line"
            id="tspan202935">6</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;line-height:1.25;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000080;stroke-width:0.75"
+       x="332.12894"
+       y="-107.5394"
+       id="text1493"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan1491"
+         style="font-size:11px;fill:#000080;stroke-width:0.75"
+         x="332.12894"
+         y="-107.5394">github.com/gt-cs2110/lc3-datapath</tspan></text>
   </g>
 </svg>
