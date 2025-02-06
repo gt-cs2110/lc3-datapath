@@ -80,13 +80,13 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="411.18257"
-     inkscape:cy="340.11834"
-     inkscape:window-width="3440"
-     inkscape:window-height="1371"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:cx="335.87571"
+     inkscape:cy="364.51354"
+     inkscape:window-width="1615"
+     inkscape:window-height="1288"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:current-layer="g10">
     <inkscape:page
        x="0"
@@ -1880,62 +1880,6 @@
          sodipodi:role="line"
          id="tspan1410"
          x="128.45331">ADDR2MUX</tspan></text>
-    <path
-       d="m 176.504,446.534 h 37.5 l 9,-18 h -55.5 z"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path720"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       d="m 218.504,415.034 -9,-9"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path364" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:7.9998px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text370"
-       x="214.908"
-       y="-406.03409"><tspan
-         x="214.908 218.9079"
-         y="-406.03409"
-         sodipodi:role="line"
-         id="tspan368">16</tspan></text>
-    <path
-       d="m 214.004,428.534 v -27"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path716" />
-    <path
-       d="m 215.804,422.414 -1.8,5.4 -1.8,-5.4 h 3.6"
-       style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="path728" />
-    <path
-       d="m 215.804,422.414 -1.8,5.4 -1.8,-5.4 z"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path736" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:10.0002px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1400"
-       x="211.72"
-       y="-392.54111"><tspan
-         x="211.72"
-         y="-392.54111"
-         id="tspan1398">0</tspan></text>
-    <path
-       d="m 162.51346,441.434 -8.58,-8.1"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path960" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:7.9998px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1408"
-       x="156.63499"
-       y="-429.25095"><tspan
-         x="156.63499"
-         y="-429.25095"
-         id="tspan1406">2</tspan></text>
     <g
        id="g63521"
        transform="translate(47.730695,31.468149)">
@@ -2127,5 +2071,10 @@
          style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          id="path964" />
     </g>
+    <path
+       d="m 176.504,446.534 h 21 l 9,-18 h -39 z"
+       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path720"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
