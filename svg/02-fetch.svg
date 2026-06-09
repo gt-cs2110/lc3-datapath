@@ -8,7 +8,7 @@
    height="730"
    viewBox="0 0 600 730"
    sodipodi:docname="02-fetch.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +80,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="194.74999"
-     inkscape:cy="601.49997"
+     inkscape:cx="194.49999"
+     inkscape:cy="361.49998"
      inkscape:window-width="3440"
      inkscape:window-height="1371"
      inkscape:window-x="0"
@@ -702,10 +702,6 @@
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1566" />
     <path
-       d="m 275.504,353.054 -9,-9"
-       style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path468" />
-    <path
        d="m 301.904,346.753 5.4,1.801 -5.4,1.8 v -3.601"
        style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path1182-7" />
@@ -713,17 +709,6 @@
        d="m 301.904,346.753 5.4,1.801 -5.4,1.8 z"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path1184-8" />
-    <text
-       xml:space="preserve"
-       transform="scale(1,-1)"
-       style="font-variant:normal;font-weight:normal;font-size:9px;font-family:STIXMathJax_Main;-inkscape-font-specification:STIXMathJax_Main-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text1392"
-       x="256.1188"
-       y="-355.21289"><tspan
-         y="-355.21289"
-         sodipodi:role="line"
-         id="tspan1390"
-         x="256.1188">[15:12]</tspan></text>
     <path
        d="m 178.004,303.554 -9,-9"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
