@@ -1,0 +1,281 @@
+\section*{LC-3 Instruction Encodings}
+
+%\subsection*{Arithmetic/Logical Instructions}
+%\vspace{1em}
+\begin{lrbox}{\arithbox}
+    \begin{bytefield}[bitwidth=\bitwidth]{20}
+        \bitheader[endianness=big]{0-15} \\
+        % add register
+        \bitbox[r]{4}{\hfill\textbf{ADD}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{SR1}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{SR2}
+        \\[\instskip]
+        % add immediate
+        \bitbox[r]{4}{\hfill\textbf{ADD}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{SR1}
+        & \bitbox[ltbr]{1}{1}
+        & \bitbox[ltbr]{5}{imm5}
+        \\[\instskip]
+        % and register
+        \bitbox[r]{4}{\hfill\textbf{AND}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{SR1}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{SR2}
+        \\[\instskip]
+        % and immediate
+        \bitbox[r]{4}{\hfill\textbf{AND}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{SR1}
+        & \bitbox[ltbr]{1}{1}
+        & \bitbox[ltbr]{5}{imm5}
+        \\[\instskip]
+        % not
+        \bitbox[r]{4}{\hfill\textbf{NOT}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{SR}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{1}
+    \end{bytefield}%
+\end{lrbox}
+\raisebox{.5\height}{\rotatebox{90}{\large \textbf{Arith./Logic}}}
+\resizebox*{\instwidth}{!}{\usebox{\arithbox}}
+
+\instgap{}
+
+%\subsection*{Load/Store Instructions}
+%\vspace{1em}
+\begin{lrbox}{\loadbox}
+    \begin{bytefield}[bitwidth=\bitwidth]{20}
+        \bitheader[endianness=big]{0-15} \\
+        % ld
+        \bitbox[r]{4}{\hfill\textbf{LD}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % st
+        \bitbox[r]{4}{\hfill\textbf{ST}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{SR}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % ldi
+        \bitbox[r]{4}{\hfill\textbf{LDI}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % sti
+        \bitbox[r]{4}{\hfill\textbf{STI}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{SR}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % ldr
+        \bitbox[r]{4}{\hfill\textbf{LDR}${}^\dagger$\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{3}{BaseR}
+        & \bitbox[ltbr]{6}{offset6}
+        \\[\instskip]
+        % str
+        \bitbox[r]{4}{\hfill\textbf{STR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltbr]{3}{SR}
+        & \bitbox[ltbr]{3}{BaseR}
+        & \bitbox[ltbr]{6}{offset6}
+        %\\[\instskip]
+    \end{bytefield}%
+\end{lrbox}
+\raisebox{.85\height}{\rotatebox{90}{\large \textbf{Load/Store}}}
+\resizebox*{\instwidth}{!}{\usebox{\loadbox}}
+
+\instgap{}
+
+%\subsection*{Branch Instructions}
+%\vspace{1em}
+\begin{lrbox}{\branchbox}
+    \begin{bytefield}[bitwidth=\bitwidth]{20}
+        \bitheader[endianness=big]{0-15} \\
+        % jmp
+        \bitbox[r]{4}{\hfill\textbf{JMP}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{BaseR}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        \\[\instskip]
+        % br
+        \bitbox[r]{4}{\hfill\textbf{BR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{1}{cn}
+        & \bitbox[ltbr]{1}{cz}
+        & \bitbox[ltbr]{1}{\vspace{1.5pt}cp}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % jsrr
+        \bitbox[r]{4}{\hfill\textbf{JSRR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{BaseR}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        \\[\instskip]
+        % jsr
+        \bitbox[r]{4}{\hfill\textbf{JSR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{1}{1}
+        & \bitbox[ltbr]{11}{PCoffset11}
+    \end{bytefield}%
+\end{lrbox}
+\raisebox{0.95\height}{\rotatebox{90}{\large \textbf{Branch}}}
+\resizebox*{\instwidth}{!}{\usebox{\branchbox}}
+
+\instgap{}
+
+%\subsection*{Miscellaneous Instructions}
+%\vspace{1em}
+\begin{lrbox}{\miscbox}
+    \begin{bytefield}[bitwidth=\bitwidth]{20}
+        \bitheader[endianness=big]{0-15} \\
+        % lea
+        \bitbox[r]{4}{\hfill\textbf{LEA}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{3}{DR}
+        & \bitbox[ltbr]{9}{PCoffset9}
+        \\[\instskip]
+        % trap
+        \bitbox[r]{4}{\hfill\textbf{TRAP}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltbr]{8}{trapvect8}
+        \\[\instskip]
+        % rti
+        \bitbox[r]{4}{\hfill\textbf{RTI}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{0}
+        \\[\instskip]
+        % illegal
+        \bitbox[r]{4}{\hfill\textit{illegal}\:\:}
+        & \bitbox[ltb]{1}{1}
+        & \bitbox[tb]{1}{1}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tbr]{1}{1}
+        & \bitbox[ltb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tb]{1}{x}
+        & \bitbox[tbr]{1}{x}
+    \end{bytefield}%
+\end{lrbox}
+\raisebox{1.55\height}{\rotatebox{90}{\large \textbf{Misc.}}}
+\resizebox*{\instwidth}{!}{\usebox{\miscbox}}
+
+\instgap{}
+
+{\large $\dagger$ \textit{Updates condition code (CC)}}
+
