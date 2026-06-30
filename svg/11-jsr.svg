@@ -80,10 +80,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="496.03538"
-     inkscape:cy="389.26226"
-     inkscape:window-width="2428"
-     inkscape:window-height="1252"
+     inkscape:cx="496.03539"
+     inkscape:cy="388.55517"
+     inkscape:window-width="1290"
+     inkscape:window-height="1190"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -2438,18 +2438,6 @@
          style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          id="path144-2-3-7" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:11px;line-height:1.25;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:0px;word-spacing:0px;fill:#000080;stroke-width:0.75"
-       x="332.12894"
-       y="-107.5394"
-       id="text1493"
-       transform="scale(1,-1)"><tspan
-         sodipodi:role="line"
-         id="tspan1491"
-         style="font-size:11px;fill:#000080;stroke-width:0.75"
-         x="332.12894"
-         y="-107.5394">github.com/gt-cs2110/lc3-datapath</tspan></text>
     <path
        d="m 237.3556,500.534 -9,-9"
        style="fill:none;stroke:#231f20;stroke-width:0.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
