@@ -1,0 +1,69 @@
+\newpage
+\section*{LC-3 MMIO Registers}
+
+\begin{lrbox}{\regbox}
+    \begin{bytefield}[bitwidth=\bitwidth]{23}
+        %\bitbox[]{4}{\textbf{Address}\hfill} \\
+        \bitheader[endianness=big]{0-15} \\
+        \bitbox[]{3}{\texttt{0xFE00}\hfill}
+        & \bitbox[r]{4}{\hfill\textbf{KBSR}\:\:}
+        & \bitbox[ltb]{1}{\rotatebox{90}{\footnotesize Rdy}}
+        & \bitbox[ltbr]{15}{\footnotesize\color{gray}\textit{(undefined)}}
+        \\[\instskip]
+        \bitbox[]{3}{\texttt{0xFE02}\hfill}
+        & \bitbox[r]{4}{\hfill\textbf{KBDR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[ltbr]{8}{ASCII code}
+        \\[\instskip]
+        \bitbox[]{3}{\texttt{0xFE04}\hfill}
+        & \bitbox[r]{4}{\hfill\textbf{DSR}\:\:}
+        & \bitbox[ltb]{1}{\rotatebox{90}{\footnotesize Rdy}}
+        & \bitbox[ltbr]{15}{\footnotesize\color{gray}\textit{(undefined)}}
+        \\[\instskip]
+        \bitbox[]{3}{\texttt{0xFE06}\hfill}
+        & \bitbox[r]{4}{\hfill\textbf{DDR}\:\:}
+        & \bitbox[ltb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[tb]{1}{0}
+        & \bitbox[ltbr]{8}{ASCII code}
+        \\[\instskip]
+        \bitbox[]{3}{\texttt{0xFFFC}\hfill}
+        & \bitbox[r]{4}{\hfill\textbf{PSR}\:\:}
+        & \bitbox[ltbr]{1}{\rotatebox{90}{\footnotesize Priv}}
+        & \bitbox[ltbr]{4}{\footnotesize\color{gray}\textit{(undefined)}}
+        & \bitbox[ltbr]{3}{PRIO}
+        & \bitbox[ltbr]{5}{\footnotesize\color{gray}\textit{(undefined)}}
+        & \bitbox[ltbr]{1}{N}
+        & \bitbox[ltbr]{1}{Z}
+        & \bitbox[ltbr]{1}{P}
+        %\\[\instskip]
+    \end{bytefield}%
+\end{lrbox}
+%\raisebox{.5\height}{\rotatebox{90}{\large \textbf{Arith./Logic}}}
+\resizebox*{0.85\linewidth}{!}{\usebox{\regbox}}
+
+\section*{LC-3 Trap Vectors}
+\begin{minipage}{11em}
+\Large
+\begin{itemize}
+    \item \texttt{0x20} $\rightarrow$ \texttt{GETC}
+    \item \texttt{0x21} $\rightarrow$ \texttt{PUTC}
+    \item \texttt{0x22} $\rightarrow$ \texttt{PUTS}
+    \item \texttt{0x25} $\rightarrow$ \texttt{HALT}
+\end{itemize}
+\end{minipage}
+
+\section*{LC-3 Memory Map}
+\includegraphics[width=0.33\linewidth]{figs/lc3-memory-map}

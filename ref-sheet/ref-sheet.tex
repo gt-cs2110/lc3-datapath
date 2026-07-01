@@ -6,6 +6,7 @@
 \usepackage{parskip}
 \usepackage{pdfpages}
 \usepackage{fontspec}
+\usepackage{xcolor}
 
 \setmonofont{Inconsolata}
 
@@ -13,6 +14,7 @@
 \newsavebox{\loadbox}
 \newsavebox{\branchbox}
 \newsavebox{\miscbox}
+\newsavebox{\regbox}
 
 \newcommand\bitwidth{1.25em}
 \newcommand\instskip{0.5em}
@@ -25,9 +27,19 @@
 % don't use -- since it looks like a minus sign
 \renewcommand{\labelitemii}{\labelitemi}
 
+\newif\ifbaby
+% Set to true to get a "baby" reference sheet with a simpler datapath. Set to
+% false to get a full reference sheet with TRAPs and I/O.
+%\babytrue
+\babyfalse
+
 \begin{document}
     \centering
     \input{pages/instr-encodings}
+    \ifbaby
+    \else
+        \input{pages/regs}
+    \fi
     \input{pages/control-signals}
     \input{pages/datapath}
 \end{document}
