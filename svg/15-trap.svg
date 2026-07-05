@@ -7,7 +7,7 @@
    width="600"
    height="750"
    viewBox="0 0 600.00001 750"
-   sodipodi:docname="14-trap.svg"
+   sodipodi:docname="15-trap.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -79,15 +79,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="3.0738738"
-     inkscape:cx="346.63102"
-     inkscape:cy="596.47862"
-     inkscape:window-width="1290"
-     inkscape:window-height="1190"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g5"
+     inkscape:zoom="1.4314917"
+     inkscape:cx="515.89543"
+     inkscape:cy="249.39021"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10"
      showguides="true">
     <inkscape:page
        x="0"
@@ -2799,7 +2799,7 @@
            sodipodi:nodetypes="ccc" />
         <path
            d="m 208.664,146.293 -1.8,5.401 -1.8,-5.401 h 3.6"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
            id="path67" />
         <path
            d="m 208.664,146.293 -1.8,5.401 -1.8,-5.401 z"
@@ -2933,7 +2933,7 @@
          sodipodi:nodetypes="ccc" />
       <path
          d="m 527.86251,51.353806 5.401,1.8 -5.401,1.8 v -3.6"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
          id="path1258-6-18" />
       <path
          d="m 527.86251,51.353806 5.401,1.8 -5.401,1.8 z"
@@ -3482,7 +3482,7 @@
          id="g114">
         <path
            d="m 159.47509,88.546328 1.86001,5.34 1.74,-5.4 -3.6,0.06"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
            id="path92-6" />
         <path
            d="m 159.47509,88.546328 1.86001,5.34 1.74,-5.4 z"
