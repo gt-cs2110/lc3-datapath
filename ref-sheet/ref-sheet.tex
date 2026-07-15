@@ -30,16 +30,28 @@
 \newif\ifbaby
 % Set to true to get a "baby" reference sheet with a simpler datapath. Set to
 % false to get a full reference sheet with TRAPs and I/O.
-%\babytrue
-\babyfalse
+\babytrue
+%\babyfalse
+
+\newif\ifc
+% Set to true to get a C ref sheet with a memory map focused on compiling C to assembly.
+% Set false to get a memory map with interrupts/MMIO
+\ctrue
+%\cfalse
 
 \begin{document}
     \centering
     \input{pages/instr-encodings}
     \ifbaby
+        \ifc
+            \input{pages/regs}
+        \fi
     \else
         \input{pages/regs}
     \fi
-    \input{pages/control-signals}
-    \input{pages/datapath}
+    \ifc
+    \else
+        \input{pages/control-signals}
+        \input{pages/datapath}
+    \fi
 \end{document}
