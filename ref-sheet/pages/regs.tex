@@ -1,8 +1,7 @@
 \newpage
 
 
-\ifc
-\else
+\ifio
     \section*{LC-3 MMIO Registers}
 
     \begin{lrbox}{\regbox}
@@ -64,8 +63,10 @@
             %\\[\instskip]
         \end{bytefield}%
     \end{lrbox}
+
     %\raisebox{.5\height}{\rotatebox{90}{\large \textbf{Arith./Logic}}}
-    \resizebox*{0.85\linewidth}{!}{\usebox{\regbox}}
+    \resizebox*{0.85\linewidth}{!}{\usebox{\regbox}} \\
+    \hspace{12em}($\mathrm{Priv}=1$ is supervisor mode. $\mathrm{PRIO}={111}_2$ is highest.)
 
     \section*{LC-3 Trap Vectors}
     \begin{minipage}{11em}
@@ -80,8 +81,12 @@
 \fi
 
 \section*{LC-3 Memory Map}
-\ifc
-    \hspace{4em}\includegraphics[width=0.5\linewidth]{figs/lc3-memory-map-c}
+\ifdatapath
+    \ifcconv
+        \includegraphics[width=0.9\linewidth]{figs/lc3-memory-map-final}
+    \else
+        \includegraphics[width=0.33\linewidth]{figs/lc3-memory-map}
+    \fi
 \else
-    \includegraphics[width=0.33\linewidth]{figs/lc3-memory-map}
+    \hspace{4em}\includegraphics[width=0.5\linewidth]{figs/lc3-memory-map-c}
 \fi

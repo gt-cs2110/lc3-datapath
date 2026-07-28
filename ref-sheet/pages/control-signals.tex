@@ -7,29 +7,33 @@
 \raggedright
 \begin{minipage}{0.25\linewidth}
 \subsection*{Signals to assert:}
-\large
+\ifio
+    \large
+\else
+    \Large
+\fi
 \begin{itemize}
     \item \textbf{\texttt{LD.MAR}}
     \item \textbf{\texttt{LD.MDR}}
     \item \textbf{\texttt{LD.IR}}
     \item \textbf{\texttt{LD.REG}}
     \item \textbf{\texttt{LD.CC}}
-    %\ifbaby
-    %\else
+    %\ifio
     %    \item \textbf{\texttt{LD.DDR}}
+    %\else
     %\fi
     \item \textbf{\texttt{GatePC}}
     \item \textbf{\texttt{GateMDR}}
     \item \textbf{\texttt{GateALU}}
-    \ifbaby
-        \item \textbf{\texttt{GateAddr}}
-        \item \textbf{\texttt{MEM.EN}}
-    \else
+    \ifio
         \item \textbf{\texttt{GateMARMUX}}
         \item \textbf{\texttt{GateSP}}
         \item \textbf{\texttt{GatePSR}}
         \item \textbf{\texttt{MIO.EN}}
         \item \textbf{\texttt{ACK}}
+    \else
+        \item \textbf{\texttt{GateAddr}}
+        \item \textbf{\texttt{MEM.EN}}
     \fi
 \end{itemize}
 \end{minipage}
@@ -37,7 +41,7 @@
 \hspace{1em}
 \begin{minipage}{0.65\linewidth}
 \subsection*{Signals with named values:}
-\large
+\Large
 \begin{itemize}
     \item \textbf{\texttt{PCMUX}}: \texttt{PC+1}, \texttt{BUS}, \texttt{ADDER}
     \item \textbf{\texttt{SR1MUX}}: \texttt{IR[11:9]}, \texttt{IR[8:6]}
@@ -45,13 +49,13 @@
     \item \textbf{\texttt{ALUK}}: \texttt{ADD}, \texttt{AND}, \texttt{NOTA}, \texttt{PASSA}
     \item \textbf{\texttt{ADDR1MUX}}: \texttt{PC}, \texttt{BaseR}
     \item \textbf{\texttt{ADDR2MUX}}: \texttt{ZERO}, \texttt{offset6}, \texttt{PCoffset9}, \allowbreak \texttt{PCoffset11}
-    \ifbaby
-        \item \textbf{\texttt{MEM.RW}}: \texttt{R}, \texttt{W}
-    \else
+    \ifio
         \item \textbf{\texttt{MARMUX}}: \texttt{IR[7:0]}, \texttt{ADDER}
         %\item \textbf{\texttt{INMUX}}: \texttt{MEM}, \texttt{KBSR}, \texttt{KBDR}, \texttt{DSR}
         \item \textbf{\texttt{SPMUX}}: \texttt{Saved.USP}, \texttt{Saved.SSP}
         \item \textbf{\texttt{MIO.RW}}: \texttt{R}, \texttt{W}
+    \else
+        \item \textbf{\texttt{MEM.RW}}: \texttt{R}, \texttt{W}
     \fi
 \end{itemize}
 \end{minipage}
@@ -68,11 +72,7 @@
 %\raggedright
 \centering
 \begin{minipage}{0.35\linewidth}
-    \ifbaby
-        \Large
-    \else
-        \large
-    \fi
+    \Large
     \begin{itemize}
         \item \textbf{\texttt{PCMUX}}:
             \begin{itemize}
@@ -80,18 +80,7 @@
                 \item ${01}_2 \rightarrow$ \texttt{BUS}
                 \item ${10}_2 \rightarrow$ \texttt{ADDER}
             \end{itemize}
-        \ifbaby
-            \item \textbf{\texttt{SR1MUX}}:
-                \begin{itemize}
-                    \item $0 \rightarrow$ \texttt{IR[11:9]}
-                    \item $1 \rightarrow$ \texttt{IR[8:6]}
-                \end{itemize}
-            \item \textbf{\texttt{DRMUX}}:
-                \begin{itemize}
-                    \item $0 \rightarrow$ \texttt{IR[11:9]}
-                    \item $1 \rightarrow$ \texttt{7}
-                \end{itemize}
-        \else
+        \ifio
             \item \textbf{\texttt{SR1MUX}}:
                 \begin{itemize}
                     \item ${00}_2 \rightarrow$ \texttt{IR[11:9]}
@@ -103,6 +92,17 @@
                     \item ${00}_2 \rightarrow$ \texttt{IR[11:9]}
                     \item ${01}_2 \rightarrow$ \texttt{7}
                     \item ${10}_2 \rightarrow$ \texttt{6}
+                \end{itemize}
+        \else
+            \item \textbf{\texttt{SR1MUX}}:
+                \begin{itemize}
+                    \item $0 \rightarrow$ \texttt{IR[11:9]}
+                    \item $1 \rightarrow$ \texttt{IR[8:6]}
+                \end{itemize}
+            \item \textbf{\texttt{DRMUX}}:
+                \begin{itemize}
+                    \item $0 \rightarrow$ \texttt{IR[11:9]}
+                    \item $1 \rightarrow$ \texttt{7}
                 \end{itemize}
         \fi
         \item \textbf{\texttt{ALUK}}:
@@ -118,19 +118,15 @@
 \hspace{1em}
 %\hfil
 \begin{minipage}{0.35\linewidth}
-\ifbaby
-    \Large
-\else
-    \large
-\fi
+\Large
 \begin{itemize}
-    \ifbaby
-    \else
+    \ifio
         \item \textbf{\texttt{SPMUX}}:
             \begin{itemize}
                 \item $0 \rightarrow$ \texttt{Saved.USP}
                 \item $1 \rightarrow$ \texttt{Saved.SSP}
             \end{itemize}
+    \else
     \fi
     \item \textbf{\texttt{ADDR1MUX}}:
         \begin{itemize}
@@ -144,9 +140,7 @@
             \item ${10}_2 \rightarrow$ \texttt{PCoffset9}
             \item ${11}_2 \rightarrow$ \texttt{PCoffset11}
         \end{itemize}
-    \ifbaby
-        \item \textbf{\texttt{MEM.RW}}:
-    \else
+    \ifio
         \item \textbf{\texttt{MARMUX}}:
             \begin{itemize}
                 \item $0 \rightarrow$ \texttt{IR[7:0]}
@@ -160,6 +154,8 @@
         %        \item ${11}_2 \rightarrow$ \texttt{DSR}
         %    \end{itemize}
         \item \textbf{\texttt{MIO.RW}}:
+    \else
+        \item \textbf{\texttt{MEM.RW}}:
     \fi
         \begin{itemize}
             \item $0 \rightarrow$ \texttt{R}

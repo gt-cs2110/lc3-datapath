@@ -27,31 +27,59 @@
 % don't use -- since it looks like a minus sign
 \renewcommand{\labelitemii}{\labelitemi}
 
-\newif\ifbaby
-% Set to true to get a "baby" reference sheet with a simpler datapath. Set to
-% false to get a full reference sheet with TRAPs and I/O.
-\babytrue
-%\babyfalse
+% Set true if you want a datapath with I/O and a memory map with I/O
+\newif\ifio
+% Set true if you want to show control signals
+\newif\ifctrlsig
+% Set true if you want to show the datapath
+\newif\ifdatapath
+% Set true if you want a memory map
+\newif\ifmem
+% Set true if you want things involving the calling convention
+\newif\ifcconv
 
-\newif\ifc
-% Set to true to get a C ref sheet with a memory map focused on compiling C to assembly.
-% Set false to get a memory map with interrupts/MMIO
-\ctrue
-%\cfalse
+% Quiz 2
+%\iofalse
+%\ctrlsigtrue
+%\datapathtrue
+%\memfalse
+%\cconvfalse
+
+% Quiz 3
+%\iotrue
+%\ctrlsigtrue
+%\datapathtrue
+%\memtrue
+%\cconvfalse
+
+% Quiz 4
+%\iofalse
+%\ctrlsigfalse
+%\datapathfalse
+%\memtrue
+%\cconvfalse
+
+% Final Exam
+\iotrue
+\ctrlsigtrue
+\datapathtrue
+\memtrue
+\cconvtrue
 
 \begin{document}
     \centering
     \input{pages/instr-encodings}
-    \ifbaby
-        \ifc
+    \ifio
+        \input{pages/regs}
+    \else
+        \ifmem
             \input{pages/regs}
         \fi
-    \else
-        \input{pages/regs}
     \fi
-    \ifc
-    \else
+    \ifctrlsig
         \input{pages/control-signals}
+    \fi
+    \ifdatapath
         \input{pages/datapath}
     \fi
 \end{document}
